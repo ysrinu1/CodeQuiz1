@@ -1,0 +1,162 @@
+/* Sets styling for the body */
+body {
+    padding-left: 40px;
+    padding-top: 20px;
+    background-color: rgb(78, 46, 46);
+}
+
+/* Sets styling for the quiz area */
+#quizArea {
+    font-family: monospace;
+    width: 600px;
+    height: 750px;
+    border: 8px solid rgb(128, 0, 0);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color:rgb(230, 229, 229);
+}
+
+/* Sets the coloring of the "Start Quiz" button */
+#quizStart {
+    background-color: rgb(3, 4, 3);
+    position: center;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Changes colors (and mouse pointer) of the "Start Quiz" button, when hovered over */
+#quizStart:hover {
+    color: white;
+    background-color: darkgreen;
+    cursor: cell;
+}
+
+/* Sets the quiz question formatting */
+#questionsDiv {
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Sets the formatting of the quiz timer */
+#timer {
+    float: center;
+    font-family:fantasy;
+    font-size: 35px;
+    padding-left: 40px;
+    color: rgb(212, 239, 1);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 0), 0 0 5px darkblue;
+}
+
+/* Configures the look of the "Clear Highscores" button */
+#startOver {
+    background-color: rgb(12, 105, 45);
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(221, 253, 41);
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+/* Added inversed colors when hovering over the "Clear Highscores" button */
+#startOver:hover {
+    
+    color:rgb(12, 105, 45);
+    background-color: rgb(221, 253, 41);
+    cursor: cell;
+}
+
+/* Sets the "Clear highscores" button formatting */
+#resetScores {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(242, 58, 58);
+    top: 30%;
+    right: 5%;
+    text-align: center;
+}
+
+/* Sets the color and mouse pointer, when hovering over the "Clear Highscores" button */
+#resetScores:hover { 
+    color:rgb(0, 0, 0);
+    background-color: rgb(242, 58, 58);
+    cursor: cell;
+}
+
+/* Sets basic formatting for all "button" elements */
+button {
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+/* Sets the formatting of the "Submit" button (where the user enters their initials) */
+#Submit {
+    background-color: purple;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Sets the color and mouse pointer, when hovering over the "Submit" button (where the user enters their initials) */
+#Submit:hover{
+    color: rgb(192, 205, 2);
+    background-color: rgb(3, 164, 14);
+    font-weight: 500;
+    cursor: cell;
+}
+
+label {
+    margin-right: 10px;
+}
+
+/* Sets the formatting of the input field for the end user's initials */
+input {
+    margin-bottom: 20px;
+    width: 15%;
+    border: 5px solid rgb(1, 182, 11);
+    font-size: 30px;
+    font-family: fantasy;
+    color: blue;
+}
+
+/* Sets the formatting of the possible answers for each question */
+li {
+    background-color:rgb(96, 96, 244);
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch:ultra-expanded;
+    color: rgb(11, 11, 8); 
+    border-radius: 50px;
+}
+
+/* Sets the color and mouse cursor whenever an answer is hovered over */
+li:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 135, 33);
+    cursor: cell;
+}
+
+/* Formats the text that lets the end user know if they answered correctly */
+#createDiv {
+    font-size: 30px;
+    margin-top: 15px;
+    border-top: 10px solid rgb(1, 48, 217);
+}
+
+a {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(250, 3, 217);
+}
